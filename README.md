@@ -1,6 +1,6 @@
 # sql-challenge
 
-The ERD was created on quickdatabasediagrams.com and exported as employee_schema.sql.
+The ERD was created using quickdatabasediagrams.com and exported as employee_schema.sql.
 
 The database tables are created using employee_schema.sql.
 
@@ -24,6 +24,8 @@ The employee_queries.sql file contains the queries for the following:
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-The EmployeeNotebook.ipynb Jupyter Notebook imports the SQL database and plots a histogram of the most common salary ranges for employees and a bar chart of the average salary by title.
+The EmployeeNotebook.ipynb Jupyter Notebook uses a username and password*  to connect to the SQL database and plots a histogram of the most common salary ranges for employees and a bar chart of the average salary by title.
 
-4/1, Mystery Solved...
+*NOTE: A config.py file with the database password is required for the Jupyter Notebook
+
+4-1. Mystery Solved...
